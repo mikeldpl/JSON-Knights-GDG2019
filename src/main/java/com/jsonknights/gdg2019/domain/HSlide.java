@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class HSlide implements Slide {
 
-    private Photo photo;
+    private final Photo photo;
 
     @Override
     public Set<String> getTags() {
