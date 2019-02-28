@@ -12,12 +12,12 @@ public class InOutManager {
     private static final Path outFileName = Paths.get("data.out");
 
 
-    public void submitResult(int count, int[][] slices) {
-        Stream.concat(Stream.of((toLine(count))))
-        Files.write(outFileName, )
-    }
-
-    private String toLine(int... count) {
-        return Stream.of(count).collect(Collectors.joining(" "));
-    }
+//    public void submitResult(int count, int[][] slices) {
+//        Stream.concat(Stream.of((toLine(count))))
+//        Files.write(outFileName, )
+//    }
+//
+//    private String toLine(int... count) {
+//        return Stream.of(count).collect(Collectors.joining(" "));
+//    }
 }

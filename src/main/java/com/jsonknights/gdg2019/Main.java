@@ -1,7 +1,9 @@
 package com.jsonknights.gdg2019;
 
+import com.jsonknights.gdg2019.domain.Photo;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Test");
+        Photo photo = new Photo();
     }
 }
